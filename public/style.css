@@ -1,0 +1,19 @@
+html{height: 100%;}
+.add-button {
+    border: 0;
+    border-radius: 50px;
+    background-color: green;
+    height: 25px;
+    width: 25px;
+    color: #fff;
+}
+
+.animation {
+    z-index: 9999;
+    width: 100%;
+    display: none;
+    opacity: 0;
+    transition-duration: 0.5s;
+    position: absolute;
+    height: 100vh;
+}
